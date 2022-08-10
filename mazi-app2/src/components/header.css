@@ -1,0 +1,47 @@
+.header{
+    top:0px;
+    background-color: rgb(253, 253, 252);
+    box-shadow:2px 2px 5px #888888;
+    display: flex;
+    margin-left: 160px; 
+    padding: 0px 10px;
+    text-align: center;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.head{
+    padding: 10px;
+    font-weight: 600;
+}
+input{
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    width: 300px;
+    border: 2px rgb(24, 226, 5) solid;
+}
+.search i {
+    position: absolute;
+}
+ 
+.search {
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+ 
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+.right{
+    font-size:20px ;
+    margin: 20px;
+
+}
+.right :hover{
+    cursor: pointer;
+}
+.note{
+    display: flex;
+}

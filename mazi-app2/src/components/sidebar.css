@@ -1,0 +1,104 @@
+
+#sidebar{
+    position: fixed;
+    height:100%;
+    background-image: url('../images/peakpx2.jpg');
+    height: 100%;
+    width: 170px;
+    left: 0px;
+
+    
+  }
+  #sidebar .title{
+    line-height: 100px;
+    text-align: center;
+    border-bottom: 1px solid #222;
+    display: inline-flex;
+    justify-content: space-between;
+
+  }
+  #sidebar .mazi{
+     width: auto;
+     height: 50px;
+     border-radius: 50%;
+     border: 2px white solid;
+     box-shadow:0 0 2px 2px rgb(20, 207, 20);
+     margin-top: 40px;
+     margin-left: 30px;
+
+
+  }
+
+  #both {
+     color: #f2f2f2;
+     font-size: 15px;
+     font-weight: 100;
+     display: inline-block;
+   
+  }
+#both--single{
+  margin-bottom: -180px;
+}
+#both--second {
+  margin-left: 25px;
+}
+
+  #sidebar .list-items{
+    position: relative;
+    width: 100%;
+    height: auto;
+    list-style: none;
+  }
+  #sidebar .list-items li{
+    padding-left: 40px;
+    line-height: 60px;
+    border-top: none;
+    border-bottom: none;
+    transition: all 0.3s ease;
+  }
+  #sidebar .list-items li:hover{
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 0px 10px 3px #222;
+    border-left: #d5e4d7 4px solid;
+  }
+  #sidebar .list-items li:first-child{
+    border-top: none;
+  }
+  #sidebar .list-items li #active{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+  #sidebar .list-items li #active i{
+    margin-right: 20px;
+    font-size:25px;
+  }
+  
+  #sidebar .user{
+    color: white;
+    display: flex;
+    margin-top: 320px;
+    margin-left: 5px;
+    
+  }
+  #sidebar .user .user--name{
+    font-size: 15px;
+
+  }
+  #sidebar .user .status{
+    background-color: #125f08;
+    border: none;
+    color: gray;
+  }
+  #sidebar .user .user--img{
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+ 

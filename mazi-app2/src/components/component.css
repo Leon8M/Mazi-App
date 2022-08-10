@@ -1,0 +1,38 @@
+
+.content {
+    margin: 200px;
+}
+
+
+.cards-list {
+    display: inline-block;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+    position: relative;
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+.card--name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.gray {
+    color: #918E9B;
+}

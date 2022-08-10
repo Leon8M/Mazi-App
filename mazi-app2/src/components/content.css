@@ -1,0 +1,167 @@
+.content {
+    margin-left: 200px; 
+    padding: 0px 10px;
+}
+.cards-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         
+    display: flex;          
+    flex-direction: column; 
+    position: relative;
+    box-shadow: 2px 2px 4px 2px gray;
+    margin: 20px;
+    border-radius: 15%;
+    text-align: center;
+}
+
+.card :hover{
+    cursor: pointer;
+}
+
+.card--image {
+    width: 70px;
+    border-radius: 50%;
+    margin-bottom: 9px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+
+.card--name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+#gray {
+    color: #918E9B;
+}
+.user--top {
+    display: flex;
+    
+}
+
+.arrow {
+    font-size: 30px;
+    margin-right: 30px;
+    font-weight: 600;
+    color: gray;
+}
+.house{
+    color: rgb(10, 209, 53);
+    font-size: 30px;
+    left: 0%;
+    margin-right: 30px;
+
+}
+.user--top h3 {
+    font-weight: 600;
+}
+.add--btn {
+    background-color: rgb(10, 209, 53);
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+.add--btn :hover{
+    cursor: pointer;
+}
+.block {
+    display: flex;
+    margin-bottom: 40px;
+}
+.anything i {
+    position: absolute;
+}
+
+.anything {
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+ 
+.any {
+    padding: 10px;
+    min-width: 40px;
+}
+.send--btn {
+    background-color: rgb(10, 209, 53);
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 90px;
+    height: 40px;
+    color: white;
+    margin-right: 80px;
+}
+.send--btn :hover{
+    cursor: pointer;
+}
+.anything input {
+    border-radius: 10px;
+    
+}
+.search--btn {
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 10px;
+    background-color: rgb(7, 156, 112);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: -10px;
+    padding-bottom: -10px;
+    color: white;
+}
+.search--btn :hover{
+    cursor: pointer;
+}
+.slider {
+    text-align: center;
+    padding: 10px;
+    font-size: 10px
+}
+.info {
+    display: block;
+}
+
+.bold {
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.green {
+    color:rgb(10, 209, 53);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.beside{
+    display: flex;
+}
+.edit {
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+    margin-top: 15px;
+    border: none;
+}

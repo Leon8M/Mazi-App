@@ -1,0 +1,105 @@
+.main {
+    margin-left: 200px; 
+    padding: 0px 10px;
+  }
+
+.top{
+    color: rgb(96, 187, 5);
+    font-size: 30px;
+    left: 0%;
+    margin-bottom: 50px;
+
+}
+.first--graphs {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.graph1 {
+ box-shadow: 0 0 3px 2px gray;
+ width: 250px;
+ height: 200px;
+ border-radius: 10px;
+ margin-left: 20px;
+ margin-right: 30px;
+}
+.graph2{
+  box-shadow: 0 0 3px 2px gray;
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+.graph3{
+  box-shadow: 0 0 3px 2px gray;
+  width: 300px;
+  border-radius: 10px;
+}
+.graph--btm{
+  box-shadow: 0 0 3px 2px gray;
+  width: 900px;
+  height: 270px;
+  border-radius: 10px;
+}
+.top--left1 {
+   position: absolute;
+  top: 185px;
+  margin-left: 30px; 
+}
+
+.top--left1 h6 {
+  color: gray;
+}
+.top--left2 {
+ position: absolute;
+  top: 185px;
+  margin-left: 15px; 
+}
+.top--left2 h6 {
+  color: gray;
+}
+.bottom--left3 {
+  position: absolute;
+  top: 300px;
+  margin-left: 20px; 
+  color: white;
+}
+.bottom3 {
+  position: absolute;
+  top: 310px;
+  margin-left: -50px;
+  color: white;
+  font-size: 20px;
+  background-color: chartreuse;
+  border-radius: 50%;
+  padding: 10px;
+}
+.bottom3 :hover {
+  cursor: pointer;
+  border: 2px gray;
+}
+.performance--text{
+  position: absolute;
+  top: 420px;
+  display: flex;
+}
+.performance--text h2 {
+  margin-right: 30px;
+  margin-left: 10px;
+}
+.performance--text h5 {
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-top: 6px;
+  font-size: 15px;
+}
+
+.performance--text .top--right {
+  margin-left: 280px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#gray {
+  color: gray;
+}
